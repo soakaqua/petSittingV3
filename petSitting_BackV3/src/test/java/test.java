@@ -7,18 +7,18 @@ import java.util.Set;
 
 import javax.persistence.EntityManager;
 
-import dao.DaoAnnonce;
-import dao.DaoAnnonceFactory;
-import dao.DaoCompte;
-import dao.DaoCompteFactory;
-import dao.DaoReponse;
-import dao.DaoReponseFactory;
 import model.Annonce;
 import model.Annonce_Service;
 import model.Proprio;
 import model.Reponse;
 import model.ReponsePK;
 import model.Sitter;
+import repository.DaoAnnonce;
+import repository.DaoAnnonceFactory;
+import repository.DaoCompte;
+import repository.DaoCompteFactory;
+import repository.DaoReponse;
+import repository.DaoReponseFactory;
 import util.JpaContext;
 
 public class test {

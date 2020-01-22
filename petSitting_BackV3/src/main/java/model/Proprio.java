@@ -14,10 +14,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Query;
 
-import dao.DaoAnnonce;
-import dao.DaoAnnonceFactory;
-import dao.DaoReponse;
-import dao.DaoReponseFactory;
+import repository.DaoAnnonce;
+import repository.DaoAnnonceFactory;
+import repository.DaoReponse;
+import repository.DaoReponseFactory;
 import util.JpaContext;
 
 @Entity

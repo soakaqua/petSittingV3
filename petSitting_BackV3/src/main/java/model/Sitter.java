@@ -8,10 +8,10 @@ import javax.persistence.Entity;
 import javax.persistence.EntityManager;
 import javax.persistence.OneToMany;
 
-import dao.DaoAnnonce;
-import dao.DaoAnnonceFactory;
-import dao.DaoReponse;
-import dao.DaoReponseFactory;
+import repository.DaoAnnonce;
+import repository.DaoAnnonceFactory;
+import repository.DaoReponse;
+import repository.DaoReponseFactory;
 import util.JpaContext;
 
 

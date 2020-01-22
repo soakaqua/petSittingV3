@@ -18,7 +18,7 @@ import javax.persistence.Transient;
 import javax.persistence.Version;
 
 import model.*;
-import repository.*;
+import repositories.*;
 
 @Entity
 @Table(name ="compte")

@@ -19,8 +19,8 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.persistence.Version;
 
-import repository.DaoAnnonce;
-import repository.DaoAnnonceFactory;
+import repositories.DaoAnnonce;
+import repositories.DaoAnnonceFactory;
 
 
 @Entity
